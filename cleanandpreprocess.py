@@ -12,7 +12,7 @@ relevant_columns = [
     'latitude', 'longitude', 'source', 'destination', 
     'hour', 'day', 'month', 'timestamp', 
     'temperature', 'humidity', 'precipProbability', 'windSpeed', 
-    'short_summary'
+    'short_summary', 'cab_type'
 ]
 df = df[relevant_columns]
 
